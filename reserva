@@ -1,0 +1,7 @@
+
+// Dentro da função mostraAlternativas:
+botaoAlternativa.addEventListener("click", function () {
+    historiaFinal += alternativa.afirmacao.join(" ") + " ";
+    atual++;
+    mostraPergunta();
+});
